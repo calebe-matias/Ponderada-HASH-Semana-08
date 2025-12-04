@@ -26,7 +26,7 @@
 
 **Cálculos de H(x,y):**
 
-![Exercício 2 - Versão de Firmware do CBTC](20251204_152129.jpg)
+![Exercício 2 - Versão de Firmware do CBTC - A e B](20251204_152139.jpg)
 
 **Respostas:**
 
