@@ -4,7 +4,6 @@
 
 **Cálculos do Hash:**
 
-
 ![Exercício 1 - Controle de Integridade de Logs Operacionais](20251204_152123.jpg)
 
 **Respostas:**
@@ -34,8 +33,7 @@
     Com $x = 1010$ e $y = 0110$, o resultado é **0010**.
 
 2.  **Se um ataque troca apenas o segundo nibble para y’ = 0111, o valor de H muda?**
-    **Sim, o valor muda.**
-    Com a alteração de $y$ para $0111$, o novo resultado calculado foi **0011**.
+    Sim, com a alteração de $y$ para $0111$, o novo resultado calculado foi **0011**.
 
 ---
 
@@ -53,10 +51,10 @@
     O resultado é $255$, que em binário é **11111111**.
 
 2.  **O atacante tenta alterar Tempo para 00110100:**
-    *(Cálculo realizado na imagem: Novo hash resulta em $254$ ou **11111110**)*.
+    Novo hash resulta em **11111110**.
 
 3.  **O hash permanece igual?**
     **Não.** O hash mudou de $11111111$ para $11111110$.
 
 4.  **Por que esse tipo de "hash fraco" é inseguro?**
-    O hash é inseguro porque usa operações lineares simples (XOR e Soma/Módulo) e não tem o "efeito avalanche" (na qual a mudança de 1 bit deveria mudar em média metade dos bits da saída).
+    O hash é inseguro porque usa operações lineares simples (XOR e Soma/Módulo) e não tem o "efeito avalanche" (na qual a mudança de 1 bit deveria mudar em média metade dos bits da saída), o que causa previsibilidade e mais colisões que o ideal.
